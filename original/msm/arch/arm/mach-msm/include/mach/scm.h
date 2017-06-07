@@ -12,13 +12,13 @@
 #ifndef __MACH_SCM_H
 #define __MACH_SCM_H
 
-#define SCM_SVC_BOOT			0x1
+#define SCM_SVC_BOOT			0x14
 #define SCM_SVC_PIL			0x2
 #define SCM_SVC_UTIL			0x3
-#define SCM_SVC_TZ			0x4
+#define SCM_SVC_TZ			0x8
 #define SCM_SVC_IO			0x5
 #define SCM_SVC_INFO			0x6
-#define SCM_SVC_SSD			0x7
+#define SCM_SVC_SSD			0x20
 #define SCM_SVC_FUSE			0x8
 #define SCM_SVC_PWR			0x9
 #define SCM_SVC_MP			0xC
